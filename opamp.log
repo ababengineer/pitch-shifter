@@ -1,0 +1,18 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\aidan\OneDrive\Documents\KiCad\9.0\projects\pitch shifter\opamp.net
+Start Time: Thu Feb 12 00:17:15 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.061 seconds.
+
+Files loaded:
+C:\Users\aidan\OneDrive\Documents\KiCad\9.0\projects\pitch shifter\opamp.net
+C:\Users\aidan\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+
