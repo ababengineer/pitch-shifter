@@ -1,4 +1,4 @@
-26729779021558187
+26735092646982344
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93156,6 +93156,13 @@ AP63200WU-7
 6
 6
 Project_Components
+ASE24LRT
+
+
+0
+4
+4
+Project_Components
 CONN HEADER SMD 10POS 1.27MM
 
 
@@ -93164,6 +93171,13 @@ CONN HEADER SMD 10POS 1.27MM
 10
 Project_Components
 CONN HEADER VERT 3POS 2.54MM
+
+
+0
+3
+3
+Project_Components
+EG1218
 
 
 0
@@ -93190,6 +93204,13 @@ MOLEX_436500315
 0
 3
 3
+Project_Components
+MSS1P4-M3_89A
+
+
+0
+2
+2
 Project_Components
 PC TEST POINT COMPACT BLACK
 

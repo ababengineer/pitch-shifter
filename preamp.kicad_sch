@@ -144,174 +144,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -713,6 +545,226 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Project_Components:MSS1P4-M3_89A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -2.2887 1.9072 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MSS1P4-M3_89A"
+				(at -6.858 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Project_Components:MSS1P4-M3_89A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MSS2P3 Series 30 V 2 A Surface Mount Schottky Barrier Rectifier - MicroSMP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Vishay Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MSS2P3-M3/89A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "MicroSMP Vishay Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MSS1P4-M3_89A_0_0"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.016) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -816,10 +868,22 @@
 		)
 	)
 	(junction
+		(at 158.75 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "323aa1aa-c8cd-4717-981f-995e0299b5a5")
+	)
+	(junction
 		(at 125.73 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "836f2d11-de80-4f4b-a9cf-90eb07ccec3c")
+	)
+	(junction
+		(at 123.19 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5e9baac-88f2-4a70-a604-ec84f1eecda5")
 	)
 	(junction
 		(at 189.23 90.17)
@@ -851,16 +915,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 60.96) (xy 135.89 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d03f557-f12b-4c76-8a0c-682ea8e5cf47")
-	)
-	(wire
-		(pts
 			(xy 189.23 90.17) (xy 195.58 90.17)
 		)
 		(stroke
@@ -868,6 +922,26 @@
 			(type default)
 		)
 		(uuid "0f7365e5-705b-4cb4-97a0-68a85c593b1a")
+	)
+	(wire
+		(pts
+			(xy 143.51 68.58) (xy 158.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a6931a-b5bb-4e95-8d20-3c497cae1ddd")
+	)
+	(wire
+		(pts
+			(xy 123.19 68.58) (xy 123.19 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e34472b-e81f-4904-879e-389daf9a4aaf")
 	)
 	(wire
 		(pts
@@ -901,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 60.96) (xy 158.75 90.17)
+			(xy 158.75 54.61) (xy 158.75 68.58)
 		)
 		(stroke
 			(width 0)
@@ -971,16 +1045,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 60.96) (xy 158.75 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63b6ed7d-5ced-49d8-8384-930a7d6cd556")
-	)
-	(wire
-		(pts
 			(xy 189.23 105.41) (xy 189.23 111.76)
 		)
 		(stroke
@@ -998,6 +1062,16 @@
 			(type default)
 		)
 		(uuid "70609e4a-2163-4d33-9e73-bff171648678")
+	)
+	(wire
+		(pts
+			(xy 135.89 54.61) (xy 123.19 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3e9094-8a7b-4f77-9121-73df7cf36e03")
 	)
 	(wire
 		(pts
@@ -1041,6 +1115,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 68.58) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6f61db-218a-45c3-ac3e-157e026ba098")
+	)
+	(wire
+		(pts
+			(xy 158.75 68.58) (xy 158.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b414289a-9985-4264-894f-f990a038fa7a")
+	)
+	(wire
+		(pts
 			(xy 140.97 73.66) (xy 140.97 82.55)
 		)
 		(stroke
@@ -1048,6 +1142,16 @@
 			(type default)
 		)
 		(uuid "bab33ea3-f176-48fb-9e7c-860b35ec41df")
+	)
+	(wire
+		(pts
+			(xy 123.19 68.58) (xy 135.89 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf88ed88-22de-49e1-a80c-870e7614d9c0")
 	)
 	(wire
 		(pts
@@ -1081,13 +1185,44 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 60.96) (xy 123.19 73.66)
+			(xy 123.19 54.61) (xy 123.19 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e6eb93fc-263f-44b4-a8d0-5e72bd21db19")
+	)
+	(wire
+		(pts
+			(xy 189.23 76.2) (xy 189.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed613140-0a44-495b-8010-a9539421d9fd")
+	)
+	(wire
+		(pts
+			(xy 158.75 54.61) (xy 143.51 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9d2b38-4038-4788-b4d1-59fed4d9a81b")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 195.58 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30b63f10-85b3-4ea4-97ca-f91b3d7ddacc")
 	)
 	(hierarchical_label "OUT"
 		(shape input)
@@ -1203,91 +1338,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 189.23 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12ba7641-f4e7-4b81-9939-a04c8635f7b0")
-		(property "Reference" "D1"
-			(at 191.77 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 186.69 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "45121135-9b39-480d-9802-0f2d7737b146")
-		)
-		(pin "1"
-			(uuid "0082c642-ad7f-43b3-9dae-0248687333fc")
-		)
-		(instances
-			(project ""
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/383a7b3f-5ddf-4f9a-8e46-e2c3d50c1497"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 140.97 105.41 0)
 		(unit 1)
@@ -1369,7 +1419,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 125.73 105.41 90)
 			(effects
 				(font
@@ -1377,7 +1427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 127.508 105.41 90)
 			(effects
 				(font
@@ -1436,7 +1486,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 173.99 90.17 90)
 			(effects
 				(font
@@ -1444,7 +1494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 173.99 91.948 90)
 			(effects
 				(font
@@ -1504,7 +1554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 107.95 92.075 0)
 			(effects
 				(font
@@ -1513,7 +1563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 109.22 91.7448 0)
 			(effects
 				(font
@@ -1556,6 +1606,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Project_Components:MSS1P4-M3_89A")
+		(at 189.23 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b9cb7b4-517f-4fac-9511-8102de07c523")
+		(property "Reference" "D2"
+			(at 191.77 100.0124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MSS1P4-M3_89A"
+			(at 191.77 102.5524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Project_Components:MSS1P4-M3_89A"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSS2P3 Series 30 V 2 A Surface Mount Schottky Barrier Rectifier - MicroSMP"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay Semiconductor"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MSS2P3-M3/89A"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "MicroSMP Vishay Semiconductor"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abefc827-0595-474a-88ec-fe8fa5f331d7")
+		)
+		(pin "2"
+			(uuid "7c1928d8-1c26-46d7-89d7-d7adfa4af77c")
+		)
+		(instances
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/383a7b3f-5ddf-4f9a-8e46-e2c3d50c1497"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 111.76 73.66 90)
 		(unit 1)
@@ -1572,7 +1724,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 111.76 73.66 90)
 			(effects
 				(font
@@ -1580,7 +1732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 111.76 75.438 90)
 			(effects
 				(font
@@ -1617,91 +1769,6 @@
 			(project "pitch shifter"
 				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/383a7b3f-5ddf-4f9a-8e46-e2c3d50c1497"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 189.23 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "954fb38b-b01c-456b-9429-67480f0c6236")
-		(property "Reference" "D2"
-			(at 191.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 186.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 189.23 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 189.23 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 189.23 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7d586114-8314-404a-a9bb-00d52e0cb384")
-		)
-		(pin "1"
-			(uuid "f58fd931-0f34-4a80-a7de-e615891cea4f")
-		)
-		(instances
-			(project "pitch shifter"
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/383a7b3f-5ddf-4f9a-8e46-e2c3d50c1497"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -1893,7 +1960,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 60.96 270)
+		(at 139.7 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1901,23 +1968,23 @@
 		(dnp no)
 		(uuid "caf0cf16-0994-414c-a7ad-0b5caef60bc0")
 		(property "Reference" "R5"
-			(at 139.7 62.992 90)
+			(at 139.7 56.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 139.7 60.96 90)
+		(property "Value" "10k"
+			(at 139.7 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.7 59.182 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 139.7 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +1993,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 60.96 0)
+			(at 139.7 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +2002,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 60.96 0)
+			(at 139.7 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,6 +2020,176 @@
 			(project "pitch shifter"
 				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/383a7b3f-5ddf-4f9a-8e46-e2c3d50c1497"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project_Components:MSS1P4-M3_89A")
+		(at 189.23 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc2278ca-f803-4cc3-978d-4a9c93433b9b")
+		(property "Reference" "D1"
+			(at 191.77 78.4224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MSS1P4-M3_89A"
+			(at 191.77 80.9624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Project_Components:MSS1P4-M3_89A"
+			(at 189.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSS2P3 Series 30 V 2 A Surface Mount Schottky Barrier Rectifier - MicroSMP"
+			(at 189.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay Semiconductor"
+			(at 189.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MSS2P3-M3/89A"
+			(at 189.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "MicroSMP Vishay Semiconductor"
+			(at 189.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d215275c-938c-4d1c-93f0-9c659bb7963d")
+		)
+		(pin "2"
+			(uuid "82ccfc7d-d3a2-4dda-a00b-aec6796f882d")
+		)
+		(instances
+			(project ""
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/383a7b3f-5ddf-4f9a-8e46-e2c3d50c1497"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.7 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fabc3228-5c39-4c1a-bf9b-dc5b311e34c5")
+		(property "Reference" "C7"
+			(at 139.7 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100p"
+			(at 139.7 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 135.89 69.5452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ff12179-f875-4f59-94a4-d6b7e9cdae56")
+		)
+		(pin "2"
+			(uuid "14261ea9-41de-4caa-81c1-8500a51ddf76")
+		)
+		(instances
+			(project ""
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/383a7b3f-5ddf-4f9a-8e46-e2c3d50c1497"
+					(reference "C7")
 					(unit 1)
 				)
 			)

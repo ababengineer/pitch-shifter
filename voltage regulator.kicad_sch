@@ -1162,7 +1162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10d5520b-8d90-43fd-808b-c94d5cefcb51")
-		(property "Reference" "C1"
+		(property "Reference" "C8"
 			(at 100.965 95.25 0)
 			(effects
 				(font
@@ -1180,7 +1180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 101.2952 101.6 0)
 			(effects
 				(font
@@ -1208,15 +1208,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4a1672e-741c-4f07-b330-bacee0f9cb06")
+			(uuid "01ca2390-1735-45d3-8ff3-d58020a26c34")
 		)
 		(pin "2"
-			(uuid "59f14d73-a21f-4488-9b41-30b37addd523")
+			(uuid "a0178d67-7d72-4fa0-a815-7e3994ed4609")
 		)
 		(instances
 			(project "pitch shifter"
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/d343d846-0f09-4042-8be7-83c2141e6a90"
-					(reference "C1")
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -1231,7 +1231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30c36cb1-ed43-446b-a0a2-a8e66e1ed1f8")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 120.65 74.93 0)
 			(effects
 				(font
@@ -1277,27 +1277,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "99b36f5b-8588-4593-8a41-a5e40e3c8900")
+			(uuid "fc796b3d-6597-49c3-bc26-b973e9099659")
 		)
 		(pin "6"
-			(uuid "bcb2c077-c341-4f28-980a-4ec999d688a1")
+			(uuid "7ebbff4d-8549-4684-b54d-8c0b4dedb105")
 		)
 		(pin "1"
-			(uuid "a5edfea1-d211-4edf-9525-d32b2f35c03d")
+			(uuid "42a4d751-a9fa-42c5-ad46-193fd32009d1")
 		)
 		(pin "4"
-			(uuid "91382b04-cd73-430b-ab7d-aaacbfeae9d8")
+			(uuid "633a93d1-6524-47cf-a525-92aa7efa4c4a")
 		)
 		(pin "3"
-			(uuid "46ce69f8-f9b1-49c1-822e-6c97be8d0ead")
+			(uuid "924c87de-bd42-4001-9948-7baffcf0c441")
 		)
 		(pin "5"
-			(uuid "747fb3c5-5465-4473-8108-b39a45e2a8b3")
+			(uuid "efb91071-22ce-42e7-8f45-7e49da49f1fc")
 		)
 		(instances
-			(project ""
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/d343d846-0f09-4042-8be7-83c2141e6a90"
-					(reference "U1")
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1312,7 +1312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32456966-86ee-4beb-9a7d-2c47d9f2d1db")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR014"
 			(at 195.58 127 0)
 			(effects
 				(font
@@ -1357,12 +1357,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "03a56e86-13b9-40f0-9296-b10dbff24003")
+			(uuid "3d33e45a-e0b5-4f74-a389-726eeba961db")
 		)
 		(instances
 			(project "pitch shifter"
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/d343d846-0f09-4042-8be7-83c2141e6a90"
-					(reference "#PWR?")
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -1377,7 +1377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a496e33-2d1d-4659-b4d8-5326af43f426")
-		(property "Reference" "C3"
+		(property "Reference" "C10"
 			(at 168.275 92.71 0)
 			(effects
 				(font
@@ -1395,7 +1395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 168.6052 99.06 0)
 			(effects
 				(font
@@ -1423,15 +1423,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5571f62a-22bf-4358-a2d9-b9aad4500d22")
+			(uuid "42686439-b31b-481a-a8fc-8c9c60ad0755")
 		)
 		(pin "2"
-			(uuid "d0e4afff-b269-4deb-94b5-fba4b27f51ba")
+			(uuid "ff4142ba-5b68-46bb-939c-8e4791e0213a")
 		)
 		(instances
 			(project "pitch shifter"
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/d343d846-0f09-4042-8be7-83c2141e6a90"
-					(reference "C3")
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1446,7 +1446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fd1de16-edae-4edb-9413-62a822e57223")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR011"
 			(at 100.33 111.76 0)
 			(effects
 				(font
@@ -1491,12 +1491,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c2555c0-6479-4c39-b280-be6fb0cbe2e8")
+			(uuid "160cc007-ada8-46c6-bedc-7d825331de45")
 		)
 		(instances
 			(project "pitch shifter"
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/d343d846-0f09-4042-8be7-83c2141e6a90"
-					(reference "#PWR?")
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1511,7 +1511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "561f861a-e0f2-441d-84f3-9ce73b9f1892")
-		(property "Reference" "C5"
+		(property "Reference" "C12"
 			(at 196.215 92.71 0)
 			(effects
 				(font
@@ -1529,7 +1529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 196.5452 99.06 0)
 			(effects
 				(font
@@ -1557,15 +1557,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b24229c-ea20-42f0-b5af-e464a5aa7b50")
+			(uuid "e4a980d5-336d-463c-9c47-2241254452db")
 		)
 		(pin "2"
-			(uuid "bdd1ac90-4317-4e57-a62d-7c4be5d893a7")
+			(uuid "8edd5f7b-2649-4596-b454-d039eb255d37")
 		)
 		(instances
 			(project "pitch shifter"
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/d343d846-0f09-4042-8be7-83c2141e6a90"
-					(reference "C5")
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1580,7 +1580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7c86df0-8a30-4839-bda4-0b84fdd9c0e5")
-		(property "Reference" "R1"
+		(property "Reference" "R9"
 			(at 178.562 95.25 90)
 			(effects
 				(font
@@ -1596,7 +1596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 174.752 95.25 90)
 			(effects
 				(font
@@ -1624,15 +1624,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6851df98-4d3b-4c90-bc8d-175906f6032b")
+			(uuid "8d2a5223-5fea-4bf7-ac50-0cf9d5cc01a8")
 		)
 		(pin "1"
-			(uuid "582ed70a-7f94-427f-9120-746b2becf4c9")
+			(uuid "cd7a9489-4b78-4e22-85a5-0fc1878c146a")
 		)
 		(instances
-			(project ""
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/d343d846-0f09-4042-8be7-83c2141e6a90"
-					(reference "R1")
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1647,7 +1647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9259514-156a-44de-bf81-0212ae872f94")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 157.48 88.9 90)
 			(effects
 				(font
@@ -1663,7 +1663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 157.48 87.63 0)
 			(effects
 				(font
@@ -1691,15 +1691,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8dbde57c-0e7d-4539-8160-1af8a0c844b9")
+			(uuid "528ecdf3-c8ea-4c8a-a457-175b728c4026")
 		)
 		(pin "2"
-			(uuid "34c512b7-cc98-49b8-b61b-951a2fac6769")
+			(uuid "a26e6301-1f7b-46df-91ac-60d06bf2ff14")
 		)
 		(instances
-			(project ""
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/d343d846-0f09-4042-8be7-83c2141e6a90"
-					(reference "L1")
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -1714,7 +1714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aafd9755-1c7d-471a-93bc-23469b83a003")
-		(property "Reference" "R2"
+		(property "Reference" "R10"
 			(at 178.562 114.3 90)
 			(effects
 				(font
@@ -1730,7 +1730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 174.752 114.3 90)
 			(effects
 				(font
@@ -1758,15 +1758,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "86836720-aa4e-4705-aece-cba1281fbe1d")
+			(uuid "387f13cb-cb25-4f5f-af2a-11d3064e01d9")
 		)
 		(pin "1"
-			(uuid "f0a5f888-4078-42a6-8c01-0999efd367b4")
+			(uuid "4bcb9bf6-3300-4482-87eb-8ac8e4ad2430")
 		)
 		(instances
 			(project "pitch shifter"
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/d343d846-0f09-4042-8be7-83c2141e6a90"
-					(reference "R2")
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1781,7 +1781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b289a11f-d2d7-45d9-aabf-de545137f136")
-		(property "Reference" "C2"
+		(property "Reference" "C9"
 			(at 149.225 78.74 0)
 			(effects
 				(font
@@ -1799,7 +1799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 149.5552 85.09 0)
 			(effects
 				(font
@@ -1827,15 +1827,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "67b0a1f0-edbb-44a4-9ad4-c81c11008a48")
+			(uuid "9c2bb592-f35c-427e-9e73-07032bb6c8f0")
 		)
 		(pin "2"
-			(uuid "2491cfad-175f-4ceb-8ef8-2dfbe36c9865")
+			(uuid "e5e29dd0-996a-424c-9683-101f5a3ce4c0")
 		)
 		(instances
-			(project ""
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/d343d846-0f09-4042-8be7-83c2141e6a90"
-					(reference "C2")
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -1850,7 +1850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d69cf45a-94be-4d02-8def-cbcbdc29f0bb")
-		(property "Reference" "C4"
+		(property "Reference" "C11"
 			(at 187.325 92.71 0)
 			(effects
 				(font
@@ -1868,7 +1868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 187.6552 99.06 0)
 			(effects
 				(font
@@ -1896,15 +1896,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "381d9eb9-7f55-4314-a2d2-9618eeb5812e")
+			(uuid "2cbbe452-9d6e-4a86-a618-1db0da0bd17f")
 		)
 		(pin "2"
-			(uuid "6b1f5daf-7770-4b38-b7a2-f216f9ffd20b")
+			(uuid "0659fc16-8088-4a96-aba3-47a7f4a8de7d")
 		)
 		(instances
 			(project "pitch shifter"
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/d343d846-0f09-4042-8be7-83c2141e6a90"
-					(reference "C4")
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -1919,7 +1919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d801c61c-a82d-46e6-9763-aac30151394b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR013"
 			(at 176.53 127 0)
 			(effects
 				(font
@@ -1964,12 +1964,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "49029068-db33-48f4-9792-55a171f7ea56")
+			(uuid "afb62a51-ba07-4028-980c-00d6d7f2a523")
 		)
 		(instances
 			(project "pitch shifter"
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/d343d846-0f09-4042-8be7-83c2141e6a90"
-					(reference "#PWR?")
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -1984,7 +1984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdae0668-b638-4e82-8dc0-bb560ff0c6d5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR012"
 			(at 140.97 102.87 0)
 			(effects
 				(font
@@ -2029,12 +2029,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "27df87ba-2482-4c51-af28-490d84e73fa1")
+			(uuid "90d68daa-09b5-48cb-becd-4b2a408db2be")
 		)
 		(instances
-			(project ""
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/d343d846-0f09-4042-8be7-83c2141e6a90"
-					(reference "#PWR?")
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

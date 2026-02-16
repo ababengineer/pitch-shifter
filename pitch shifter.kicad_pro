@@ -615,12 +615,12 @@
       "Root"
     ],
     [
-      "d343d846-0f09-4042-8be7-83c2141e6a90",
-      "Voltage Regulator"
-    ],
-    [
       "383a7b3f-5ddf-4f9a-8e46-e2c3d50c1497",
       "preamp"
+    ],
+    [
+      "04f7cbcd-02ba-401a-9ce7-de3392119ba4",
+      "Digital Voltage Regulator"
     ]
   ],
   "text_variables": {}
