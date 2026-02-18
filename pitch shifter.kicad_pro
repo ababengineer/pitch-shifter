@@ -621,6 +621,10 @@
     [
       "04f7cbcd-02ba-401a-9ce7-de3392119ba4",
       "Digital Voltage Regulator"
+    ],
+    [
+      "8da2cfd3-5bb2-473e-9364-6e53b515e20e",
+      "Analog Voltage Regulator"
     ]
   ],
   "text_variables": {}
