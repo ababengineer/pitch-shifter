@@ -1,4 +1,4 @@
-26795670358639804
+26799213308122143
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93716,6 +93716,13 @@ MOLEX_430450412
 4
 4
 Project_Components
+MOLEX_430450612
+
+
+0
+6
+6
+Project_Components
 MOLEX_430450812
 
 
@@ -93778,6 +93785,13 @@ STM32G030K8T6
 0
 32
 32
+Project_Components
+STM32L432KCU6
+
+
+0
+33
+33
 Project_Components
 TPS2121RUXR
 
