@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\aidan\OneDrive\Documents\KiCad\9.0\projects\pitch shifter\opamp.net
-Start Time: Thu Feb 12 00:17:15 2026
+Start Time: Tue Feb 24 23:00:18 2026
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -10,9 +10,10 @@ Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.061 seconds.
+Total elapsed time: 0.194 seconds.
 
 Files loaded:
 C:\Users\aidan\OneDrive\Documents\KiCad\9.0\projects\pitch shifter\opamp.net
-C:\Users\aidan\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+C:\Users\aidan\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\aidan\AppData\Local\LTspice\lib\sub\LTC.lib
 
