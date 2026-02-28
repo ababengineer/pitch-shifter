@@ -651,6 +651,88 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Project_Components:Inline Test Point"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Test Point"
+				(at 0 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Inline Test Point_1_1"
+				(circle
+					(center 0 0)
+					(radius 0.889)
+					(stroke
+						(width 0.0762)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin free line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -754,10 +836,28 @@
 		)
 	)
 	(junction
+		(at 144.78 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "055d20e4-d46c-463a-bbba-ca24240d1fc2")
+	)
+	(junction
 		(at 176.53 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1781de87-9128-4c09-a690-25342295ec0c")
+	)
+	(junction
+		(at 99.06 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eefb71a-23a1-4ece-9391-374578c88256")
+	)
+	(junction
+		(at 144.78 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2805d4d5-48b8-4507-a474-8e2499bc088c")
 	)
 	(junction
 		(at 195.58 104.14)
@@ -772,16 +872,16 @@
 		(uuid "2dff446d-4aa4-459e-a62f-926394a6dacd")
 	)
 	(junction
+		(at 100.33 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34a5d038-d1de-4abf-baff-8f047bb6469c")
+	)
+	(junction
 		(at 186.69 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4922cac5-fd20-4748-a6bd-cc747d6e66ae")
-	)
-	(junction
-		(at 100.33 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5090b358-3b29-4184-a3da-9289814dc064")
 	)
 	(junction
 		(at 195.58 87.63)
@@ -794,6 +894,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97a33f12-29d4-495c-9792-065dd368a78a")
+	)
+	(junction
+		(at 181.61 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f4099a6-6675-46da-8068-7c9f0f199853")
 	)
 	(junction
 		(at 176.53 104.14)
@@ -833,7 +939,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 87.63) (xy 148.59 87.63)
+			(xy 140.97 87.63) (xy 144.78 87.63)
 		)
 		(stroke
 			(width 0)
@@ -883,7 +989,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 73.66) (xy 148.59 73.66)
+			(xy 140.97 73.66) (xy 144.78 73.66)
 		)
 		(stroke
 			(width 0)
@@ -913,13 +1019,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 90.17) (xy 100.33 90.17)
+			(xy 144.78 73.66) (xy 148.59 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5426ddb2-5161-4517-8628-fd8198fc2942")
+		(uuid "55ce8546-c3a0-4569-bef3-6925b5d173f5")
 	)
 	(wire
 		(pts
@@ -933,7 +1039,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 90.17) (xy 100.33 93.98)
+			(xy 100.33 87.63) (xy 100.33 90.17)
 		)
 		(stroke
 			(width 0)
@@ -963,7 +1069,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 85.09) (xy 100.33 85.09)
+			(xy 93.98 85.09) (xy 99.06 85.09)
 		)
 		(stroke
 			(width 0)
@@ -983,16 +1089,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 90.17) (xy 100.33 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e15eb30-b44f-4de2-85b3-cb702efa7a7f")
-	)
-	(wire
-		(pts
 			(xy 167.64 99.06) (xy 167.64 104.14)
 		)
 		(stroke
@@ -1003,13 +1099,33 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 87.63) (xy 186.69 87.63)
+			(xy 181.61 87.63) (xy 186.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b520773e-2dbe-4a0b-9af2-990b2629dd98")
+	)
+	(wire
+		(pts
+			(xy 176.53 87.63) (xy 181.61 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cda03c49-5beb-486a-9d46-30a0a1a8d4b1")
+	)
+	(wire
+		(pts
+			(xy 100.33 90.17) (xy 100.33 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe7fb41-30b4-475a-8272-9f7fa115cb84")
 	)
 	(wire
 		(pts
@@ -1023,6 +1139,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 87.63) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daca9cc2-2e88-44d5-9f41-8213140a9e81")
+	)
+	(wire
+		(pts
 			(xy 161.29 87.63) (xy 167.64 87.63)
 		)
 		(stroke
@@ -1033,6 +1159,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 90.17) (xy 100.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2188730-adf4-4797-a2e2-3f7a6b673cb9")
+	)
+	(wire
+		(pts
 			(xy 176.53 91.44) (xy 176.53 87.63)
 		)
 		(stroke
@@ -1040,6 +1176,16 @@
 			(type default)
 		)
 		(uuid "ebf8f431-b20b-48c3-86a3-bda5f896dfd2")
+	)
+	(wire
+		(pts
+			(xy 99.06 85.09) (xy 100.33 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed21eac5-a174-4466-94e2-7466592ed891")
 	)
 	(wire
 		(pts
@@ -1083,16 +1229,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 87.63) (xy 100.33 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f88a9542-c989-4b3a-b699-227004752311")
-	)
-	(wire
-		(pts
 			(xy 195.58 99.06) (xy 195.58 104.14)
 		)
 		(stroke
@@ -1112,16 +1248,6 @@
 		(uuid "fd49f739-c6b7-4b99-bb93-5fe02490d1f4")
 	)
 	(label "FB"
-		(at 93.98 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a8c7ec4-3639-483e-bf14-220df742980f")
-	)
-	(label "FB"
 		(at 167.64 104.14 0)
 		(effects
 			(font
@@ -1129,18 +1255,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "54271359-f6e8-4d15-9ecb-b2a2a51b7d3a")
+		(uuid "61334c4b-aa71-454c-9a9d-35d893dcc402")
 	)
-	(hierarchical_label "VOUT"
-		(shape input)
-		(at 201.93 87.63 0)
+	(label "FB"
+		(at 93.98 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "4a328928-b1b9-4917-99d3-9e5bcbd50782")
+		(uuid "9e9cd284-455f-4edd-97de-c3fa963b4b26")
 	)
 	(hierarchical_label "VIN"
 		(shape input)
@@ -1151,7 +1276,18 @@
 			)
 			(justify right)
 		)
-		(uuid "7aabea1e-fb5f-45df-be03-950a1a79836c")
+		(uuid "9aeeae4d-92dc-4966-826e-5e3aeea330b9")
+	)
+	(hierarchical_label "VOUT"
+		(shape input)
+		(at 201.93 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae22a01b-9c99-42ab-92d8-1fb011e76be6")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1161,8 +1297,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "10d5520b-8d90-43fd-808b-c94d5cefcb51")
-		(property "Reference" "C8"
+		(uuid "00fa4a32-a733-44c7-9dfe-13b887df5037")
+		(property "Reference" "C15"
 			(at 100.965 95.25 0)
 			(effects
 				(font
@@ -1180,7 +1316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 101.2952 101.6 0)
 			(effects
 				(font
@@ -1216,7 +1352,537 @@
 		(instances
 			(project "pitch shifter"
 				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
-					(reference "C8")
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "135296da-18a5-42cd-ba56-0da597e9173d")
+		(property "Reference" "#PWR030"
+			(at 100.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "160cc007-ada8-46c6-bedc-7d825331de45")
+		)
+		(instances
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project_Components:Inline Test Point")
+		(at 99.06 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "196fef3d-54c2-4699-9dc2-980ce8f34e31")
+		(property "Reference" "TP35"
+			(at 99.06 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test Point"
+			(at 99.06 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cf814e8-e1e2-47e7-91cc-75b6e0489c97")
+		)
+		(instances
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "TP35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23a31766-0cd7-4dfa-9821-962c4a4637ab")
+		(property "Reference" "C19"
+			(at 168.275 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100p"
+			(at 168.275 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 168.6052 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42686439-b31b-481a-a8fc-8c9c60ad0755")
+		)
+		(pin "2"
+			(uuid "ff4142ba-5b68-46bb-939c-8e4791e0213a")
+		)
+		(instances
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e643faf-e7f0-457e-a926-72e784942f96")
+		(property "Reference" "#PWR036"
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d33e45a-e0b5-4f74-a389-726eeba961db")
+		)
+		(instances
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 148.59 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dd122f0-5595-4714-9fb0-eda154f7a6cd")
+		(property "Reference" "C17"
+			(at 149.225 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 149.225 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 149.5552 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c2bb592-f35c-427e-9e73-07032bb6c8f0")
+		)
+		(pin "2"
+			(uuid "e5e29dd0-996a-424c-9683-101f5a3ce4c0")
+		)
+		(instances
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65c57226-2170-4107-a9ec-553febb28167")
+		(property "Reference" "#PWR034"
+			(at 176.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afb62a51-ba07-4028-980c-00d6d7f2a523")
+		)
+		(instances
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "727e787a-095b-403e-be0a-11752c350892")
+		(property "Reference" "R17"
+			(at 178.562 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "196K"
+			(at 176.53 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 174.752 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 176.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d2a5223-5fea-4bf7-ac50-0cf9d5cc01a8")
+		)
+		(pin "1"
+			(uuid "cd7a9489-4b78-4e22-85a5-0fc1878c146a")
+		)
+		(instances
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project_Components:Inline Test Point")
+		(at 181.61 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f9cd9b9-35c7-4a02-9df6-8dfa76692698")
+		(property "Reference" "TP38"
+			(at 181.61 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test Point"
+			(at 181.61 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 181.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a951a46-2580-4554-8189-b2132055e2ce")
+		)
+		(instances
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "TP38")
 					(unit 1)
 				)
 			)
@@ -1230,7 +1896,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "30c36cb1-ed43-446b-a0a2-a8e66e1ed1f8")
+		(uuid "a7357f2a-9cb8-4b7f-807b-1d5dfd5c6e63")
 		(property "Reference" "U5"
 			(at 120.65 74.93 0)
 			(effects
@@ -1304,16 +1970,24 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 195.58 120.65 0)
+		(lib_id "Project_Components:Inline Test Point")
+		(at 144.78 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "32456966-86ee-4beb-9a7d-2c47d9f2d1db")
-		(property "Reference" "#PWR014"
-			(at 195.58 127 0)
+		(uuid "ae4d6ed1-165d-4a4f-8729-a4082b629312")
+		(property "Reference" "TP36"
+			(at 144.78 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test Point"
+			(at 144.78 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,16 +1995,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 195.58 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 120.65 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 144.78 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +2005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 120.65 0)
+			(at 144.78 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,8 +2013,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 120.65 0)
+		(property "Description" ""
+			(at 144.78 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,46 +2023,44 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d33e45a-e0b5-4f74-a389-726eeba961db")
+			(uuid "99428585-9e80-4a1a-8026-f6e7b3b14004")
 		)
 		(instances
 			(project "pitch shifter"
 				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
-					(reference "#PWR014")
+					(reference "TP36")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 167.64 95.25 0)
+		(lib_id "Device:R")
+		(at 176.53 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3a496e33-2d1d-4659-b4d8-5326af43f426")
-		(property "Reference" "C10"
-			(at 168.275 92.71 0)
+		(uuid "b9f36b2c-d644-4101-b3f6-8678dd4bf649")
+		(property "Reference" "R18"
+			(at 178.562 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100p"
-			(at 168.275 97.79 0)
+		(property "Value" "62K"
+			(at 176.53 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 168.6052 99.06 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 174.752 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +2069,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 95.25 0)
+			(at 176.53 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,90 +2077,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 167.64 95.25 0)
+		(property "Description" "Resistor"
+			(at 176.53 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "42686439-b31b-481a-a8fc-8c9c60ad0755")
 		)
 		(pin "2"
-			(uuid "ff4142ba-5b68-46bb-939c-8e4791e0213a")
-		)
-		(instances
-			(project "pitch shifter"
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4fd1de16-edae-4edb-9413-62a822e57223")
-		(property "Reference" "#PWR011"
-			(at 100.33 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "387f13cb-cb25-4f5f-af2a-11d3064e01d9")
 		)
 		(pin "1"
-			(uuid "160cc007-ada8-46c6-bedc-7d825331de45")
+			(uuid "4bcb9bf6-3300-4482-87eb-8ac8e4ad2430")
 		)
 		(instances
 			(project "pitch shifter"
 				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
-					(reference "#PWR011")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1510,8 +2109,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "561f861a-e0f2-441d-84f3-9ce73b9f1892")
-		(property "Reference" "C12"
+		(uuid "c3a9dfd7-8f9e-445c-91aa-a626e497ca82")
+		(property "Reference" "C23"
 			(at 196.215 92.71 0)
 			(effects
 				(font
@@ -1529,7 +2128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 196.5452 99.06 0)
 			(effects
 				(font
@@ -1565,39 +2164,31 @@
 		(instances
 			(project "pitch shifter"
 				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
-					(reference "C12")
+					(reference "C23")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 176.53 95.25 0)
+		(lib_id "Project_Components:Inline Test Point")
+		(at 144.78 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a7c86df0-8a30-4839-bda4-0b84fdd9c0e5")
-		(property "Reference" "R9"
-			(at 178.562 95.25 90)
+		(uuid "c6c3697a-1cfc-4df2-abd2-c978c5f224b0")
+		(property "Reference" "TP37"
+			(at 144.78 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "196K"
-			(at 176.53 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 174.752 95.25 90)
+		(property "Value" "Test Point"
+			(at 144.78 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,8 +2196,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 176.53 95.25 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 144.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,8 +2205,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 176.53 95.25 0)
+		(property "Datasheet" ""
+			(at 144.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1623,16 +2214,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "8d2a5223-5fea-4bf7-ac50-0cf9d5cc01a8")
+		(property "Description" ""
+			(at 144.78 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "cd7a9489-4b78-4e22-85a5-0fc1878c146a")
+			(uuid "9d6451d1-7884-496b-96e1-5af99e074e01")
 		)
 		(instances
 			(project "pitch shifter"
 				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
-					(reference "R9")
+					(reference "TP37")
 					(unit 1)
 				)
 			)
@@ -1646,7 +2243,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a9259514-156a-44de-bf81-0212ae872f94")
+		(uuid "e090e154-8f84-42ed-8ba8-51b63a4fbd67")
 		(property "Reference" "L2"
 			(at 157.48 88.9 90)
 			(effects
@@ -1706,276 +2303,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 176.53 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aafd9755-1c7d-471a-93bc-23469b83a003")
-		(property "Reference" "R10"
-			(at 178.562 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "62K"
-			(at 176.53 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 174.752 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 176.53 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "387f13cb-cb25-4f5f-af2a-11d3064e01d9")
-		)
-		(pin "1"
-			(uuid "4bcb9bf6-3300-4482-87eb-8ac8e4ad2430")
-		)
-		(instances
-			(project "pitch shifter"
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 148.59 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b289a11f-d2d7-45d9-aabf-de545137f136")
-		(property "Reference" "C9"
-			(at 149.225 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 149.225 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 149.5552 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 148.59 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c2bb592-f35c-427e-9e73-07032bb6c8f0")
-		)
-		(pin "2"
-			(uuid "e5e29dd0-996a-424c-9683-101f5a3ce4c0")
-		)
-		(instances
-			(project "pitch shifter"
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 186.69 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d69cf45a-94be-4d02-8def-cbcbdc29f0bb")
-		(property "Reference" "C11"
-			(at 187.325 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 187.325 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 187.6552 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 186.69 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cbbe452-9d6e-4a86-a618-1db0da0bd17f")
-		)
-		(pin "2"
-			(uuid "0659fc16-8088-4a96-aba3-47a7f4a8de7d")
-		)
-		(instances
-			(project "pitch shifter"
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d801c61c-a82d-46e6-9763-aac30151394b")
-		(property "Reference" "#PWR013"
-			(at 176.53 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afb62a51-ba07-4028-980c-00d6d7f2a523")
-		)
-		(instances
-			(project "pitch shifter"
-				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 140.97 96.52 0)
 		(unit 1)
@@ -1983,8 +2310,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fdae0668-b638-4e82-8dc0-bb560ff0c6d5")
-		(property "Reference" "#PWR012"
+		(uuid "e97b0bb7-85bd-48a8-9c57-e141463f6438")
+		(property "Reference" "#PWR032"
 			(at 140.97 102.87 0)
 			(effects
 				(font
@@ -2034,7 +2361,76 @@
 		(instances
 			(project "pitch shifter"
 				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
-					(reference "#PWR012")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff1b2f82-455e-4a39-86cd-f106db431677")
+		(property "Reference" "C21"
+			(at 187.325 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 187.325 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 187.6552 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cbbe452-9d6e-4a86-a618-1db0da0bd17f")
+		)
+		(pin "2"
+			(uuid "0659fc16-8088-4a96-aba3-47a7f4a8de7d")
+		)
+		(instances
+			(project "pitch shifter"
+				(path "/155ecfb0-8543-4b20-91a8-ba83977b0554/04f7cbcd-02ba-401a-9ce7-de3392119ba4"
+					(reference "C21")
 					(unit 1)
 				)
 			)
